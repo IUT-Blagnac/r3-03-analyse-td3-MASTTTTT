@@ -18,4 +18,11 @@ public class App {
         return param;
     }
 
+    public static String bonjour(){
+        return "Bonjour monde";
+    }
+    public static String bonjour(String param){
+        return param;
+    }
+
 }

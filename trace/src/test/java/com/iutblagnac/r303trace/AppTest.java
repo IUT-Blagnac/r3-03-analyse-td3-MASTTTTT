@@ -42,4 +42,20 @@ public class AppTest
     {
         assertEquals("Hello JMB!", App.hello("Hello JMB!"));
     }
+
+    /**
+     * Test le return sans parametre
+     */
+    public void testBonjourSansParametre()
+    {
+        assertEquals("Bonjour monde", App.bonjour());
+    }
+
+    /**
+     * Test the return with a parameter
+     */
+    public void testBonjourParametre()
+    {
+        assertEquals("Bonjour JMB!", App.hello("Bonjour JMB!"));
+    }
 }
